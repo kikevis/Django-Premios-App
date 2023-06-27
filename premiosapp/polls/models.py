@@ -13,6 +13,9 @@ class Question(models.Model):
         return self.pub_date >= timezone.now() - datetime.timedelta(days=1)
 
 class Choice(models.Model):
-    questions = models.ForeignKey(Question, on_delete=models.CASCADE)
-    choice_text = models.DateTimeField(max_length=300, null=True)
+    question = models.ForeignKey(Question, on_delete=models.CASCADE)
+    choice_text = models.CharField(max_length=300, null=True)
     votes = models.IntegerField(default=0, null=True)
+
+    def __str__(self):
+        return self.choice_text
