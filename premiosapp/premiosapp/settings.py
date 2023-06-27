@@ -41,10 +41,12 @@ DJANGO_APPS = (
 
 THIRD_APPS = (
     # 'kikevis',
+    'django_extensions',
 )
 
 LOCAL_APPS = (
     'polls.apps.PollsConfig',
+    # 'crud.apps.CrudConfig',
 )
 
 INSTALLED_APPS = DJANGO_APPS  + LOCAL_APPS + THIRD_APPS
