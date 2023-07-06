@@ -46,6 +46,7 @@ THIRD_APPS = (
 
 LOCAL_APPS = (
     'polls.apps.PollsConfig',
+    'fundamentos.apps.FundamentosConfig',
     # 'crud.apps.CrudConfig',
 )
 
