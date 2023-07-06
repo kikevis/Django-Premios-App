@@ -1,0 +1,5 @@
+<ul>
+    {% for article in Question %}
+        <li>{{ article.pub_date }}: {{ article.question_text }}</li>
+    {% endfor %}
+</ul>
