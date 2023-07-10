@@ -9,7 +9,7 @@ print(full_name)
 quote = "I'm Geovanny"
 print(quote)
 
-quote2 = ' He said "Hello"  '
+quote2 = ' "Hello" '
 print(quote2)
 
 # format
