@@ -22,3 +22,11 @@ print('v2', template)
 
 template = f"Hola, mi nombre es {name} y mi apellido es {last_name}"
 print('v3', template)
+
+# other format
+name = "Geovanny"
+last_name= "Villa"
+age = 24
+
+impresion = f"Hola {name} {last_name}, tu edad es {age}"
+print(impresion)
